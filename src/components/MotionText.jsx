@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export default function MotionText() {
     return (
-    <div class="text-center">
+    <div className="text-center">
     <motion.p
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}

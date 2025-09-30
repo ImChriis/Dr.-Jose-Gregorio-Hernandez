@@ -3,6 +3,8 @@ import "../styles/global.css";
 import Navbar from '../components/Navbar.astro';
 ---
 
+
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -17,6 +19,14 @@ import Navbar from '../components/Navbar.astro';
 		<main class="flex-1 w-full">
 			<slot />
 		</main>
+		<!-- <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+		<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+		<script>
+			document.addEventListener('DOMContentLoaded', function () {
+				if (typeof AOS !== 'undefined') AOS.init();
+			});
+		</script> -->
+	</body>
 </html>
 
 <style>
